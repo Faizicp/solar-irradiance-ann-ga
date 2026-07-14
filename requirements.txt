@@ -1,0 +1,13 @@
+# Tested working combination (Python 3.14, 2026-07-14):
+#   torch==2.13.0
+#   pandas==3.0.3
+#   numpy==2.5.1
+#   matplotlib==3.11.0
+#
+# The script does not use any version-specific APIs, so the loose
+# constraints below should also work on older, more common stacks
+# (e.g. Python 3.9-3.12 with torch>=2.0, pandas>=1.5).
+torch>=2.0
+pandas>=1.5
+numpy>=1.23
+matplotlib>=3.5
