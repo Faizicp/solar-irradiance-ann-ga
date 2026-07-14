@@ -1,0 +1,12 @@
+# The full-year NSRDB extract is 177 MB, over GitHub's 100 MB hard limit.
+# See data/README.md for how to regenerate it.
+data/2019-3032554-one_axis.csv
+
+# Script outputs
+results/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/

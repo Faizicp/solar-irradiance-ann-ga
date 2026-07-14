@@ -24,9 +24,11 @@ pip install -r requirements.txt
 
 ## Data
 
-See [`data/README.md`](data/README.md). The ten-day CSVs are included directly; the
-177 MB full-year NSRDB extract is not (exceeds GitHub's 100 MB limit) — instructions for
-obtaining it from NSRDB are in that file.
+See [`data/README.md`](data/README.md). The ten-day CSVs are included directly. The
+177 MB full-year NSRDB extract is too large to upload as a single file (exceeds GitHub's
+100 MB git limit and 25 MB web-uploader limit), so it's split into 8 parts — run
+`cat 2019-3032554-one_axis.part0*.csvpart > 2019-3032554-one_axis.csv` inside `data/` to
+reconstruct it before running the full-year demonstration below.
 
 ## Running
 
