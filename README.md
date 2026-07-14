@@ -1,7 +1,6 @@
 # solar-irradiance-ann-ga
 
-PyTorch implementation of a hybrid ANN–GA solar irradiance forecasting model, released
-alongside the manuscript *"[paper title]"* (Data and Code Availability section).
+PyTorch implementation of a hybrid ANN–GA solar irradiance forecasting model.
 
 ## Scope
 
